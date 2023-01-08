@@ -454,6 +454,34 @@ input.mainBtn {
   background-image: url("../images/oop.jpeg");
 }
 
+#portfolioId2 {
+  background-image: url("../images/purple.jpeg");
+}
+
+#portfolioId3 {
+  background-image: url("../images/orange.png");
+}
+
+#portfolioId4 {
+  background-image: url("../images/red.png");
+}
+
+#portfolioId5 {
+  background-image: url("../images/pink.png");
+}
+
+#portfolioId6 {
+  background-image: url("../images/yellow.webp");
+}
+
+#portfolioId7 {
+  background-image: url("../images/green.jpeg");
+}
+
+#portfolioId8 {
+  background-image: url("../images/magenta.jpg");
+}
+
 #blogPosts {
   background-image: url("../images/includes/blogPosts.jpg");
 }
@@ -806,7 +834,14 @@ blockquote {
 }
 .project-single .description {
   margin-bottom: 40px;
+  color: black;
 }
+
+.project-single .bigger-text{
+  font-size: 20px;
+  color: black;
+}
+
 .project-single .meta-post li {
   display: block;
   margin-bottom: 15px;
