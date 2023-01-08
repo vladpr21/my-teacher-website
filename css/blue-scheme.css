@@ -240,12 +240,13 @@ a, a:visited {
   border-bottom: none;
 }
 
-a.menu-toggle-btn {
+button.menu-toggle-btn {
   float: right;
   margin-right: 20px;
   color: #31373a;
   font-size: 14px;
   display: block;
+  background-color: white;
 }
 a.menu-toggle-btn i {
   font-size: 18px;
