@@ -79,14 +79,24 @@ strong, b {
   color: #31373a;
 }
 
+.contact-li {
+  color: blue;
+  background-color: white;
+}
+
+.contact-span {
+  color: black;
+  background-color: white;
+}
+
 a, a:visited {
-  color: #00a8d6;
+  color: navy;
   text-decoration: none !important;
   outline: 0;
 }
 
 a:hover, a:focus, a:active {
-  color: #777777;
+  color: #00a8d6;
 }
 
 p a, p a:visited {
@@ -189,8 +199,20 @@ a, a:visited {
   margin-left: 20px;
   position: relative;
 }
+
+.no-link{
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding: 5px 15px;
+  display: block;
+  border-radius: 3px;
+}
+
 .main-nav ul li a {
-  color: #31373a;
+  color: black;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -229,7 +251,7 @@ a, a:visited {
 }
 .main-nav ul li ul li a {
   background-color: transparent !important;
-  color: #777777 !important;
+  color: black !important;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -240,7 +262,7 @@ a, a:visited {
   border-bottom: none;
 }
 
-button.menu-toggle-btn {
+div.menu-toggle-btn {
   float: right;
   margin-right: 20px;
   color: #31373a;
@@ -279,7 +301,7 @@ a.menu-toggle-btn i {
 }
 .main_menu li ul li:before {
   content: '-';
-  color: gray;
+  color: black;
   margin-right: 10px;
 }
 
@@ -370,7 +392,7 @@ a.main-button.accent-color:hover {
 
 label {
   font-weight: normal;
-  color: #aaaaaa;
+  color: black;
 }
 
 input, textarea {
@@ -388,7 +410,7 @@ textarea:focus {
 }
 
 .mainBtn {
-  background-color: #00a8d6;
+  background-color: navy;
   padding: 7px 17px;
   color: white;
   display: inline-block;
@@ -411,7 +433,7 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("../images/teacher.jpeg");
+  background-image: url("../images/home-crazy.jpeg");
 }
 
 #portfolio {
@@ -504,7 +526,7 @@ input.mainBtn {
   padding: 11em 0;
   text-align: center;
 }
-.home-intro-content h2 {
+.home-intro-content h1 {
   font-size: 36px;
   font-weight: 800;
   color: white;
@@ -750,6 +772,11 @@ blockquote {
   text-align: center;
 }
 
+.news-description{
+  color: black;
+  background-color: white;
+}
+
 .project-single {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -777,13 +804,16 @@ blockquote {
 .project-single .meta-post li {
   display: block;
   margin-bottom: 15px;
+  color: blue;
+  background-color: white;
 }
 .project-single .meta-post li span {
-  color: #31373a;
+  color: black;
+  background-color: white;
   margin-right: 10px;
 }
 .project-single .meta-post li a {
-  color: #777777;
+  color: black;
 }
 .project-single .meta-post li a:hover {
   color: #00a8d6;
@@ -961,7 +991,7 @@ blockquote {
   height: auto;
 }
 .post-blog .blog-content span {
-  color: #aaaaaa;
+  color: blue;
   margin-right: 10px;
   font-size: 14px;
 }
@@ -971,16 +1001,16 @@ blockquote {
 .post-blog .blog-content span a:hover {
   color: #00a8d6;
 }
-.post-blog .blog-content h3 {
+.post-blog .blog-content h2 {
   margin: 10px 0 25px 0;
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
 }
-.post-blog .blog-content h3 a {
+.post-blog .blog-content h2 a {
   color: #31373a;
 }
-.post-blog .blog-content h3 a:hover {
+.post-blog .blog-content h2 a:hover {
   color: #00a8d6;
 }
 
@@ -1257,6 +1287,7 @@ blockquote {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
+  color: black;
 }
 
 /*------------------------------------------------------

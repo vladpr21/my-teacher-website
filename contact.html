@@ -7,10 +7,6 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="templatemo">
-    <!-- 
-	Medigo Template
-	http://www.templatemo.com/preview/templatemo_460_medigo
-    -->
 
     <!-- Google Fonts -->
     <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
@@ -59,16 +55,14 @@
             <div class="col-md-12">
 
                 <div class="pull-left logo">
-                    <a href="index.html">
-                        <h5>Prundus Vlad-George, Lect, Prof, Phd</h5>
-                    </a>
+                    <h5>Prundus Vlad-George, Lect, Prof, Phd</h5>
                 </div>    <!-- /.logo -->
 
                 <div class="main-navigation pull-right">
 
                     <nav class="main-nav visible-md visible-lg">
                         <ul class="sf-menu">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="#">Teaching</a>
                                 <ul>
                                     <li><a href="object-oriented.html">Object Oriented Programming</a></li>
@@ -90,9 +84,9 @@
 
                     <!-- This one in here is responsive menu for tablet and mobiles -->
                     <div class="responsive-navigation visible-sm visible-xs">
-                        <button class="menu-toggle-btn">
+                        <div class="menu-toggle-btn">
                             <i class="fa fa-bars bars"></i>
-                        </button>
+                        </div>
                     </div> <!-- /responsive_navigation -->
 
                 </div> <!-- /.main-navigation -->
@@ -109,10 +103,8 @@
     <div class="parallax-overlay">
         <div class="container pageTitle">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <h2 class="page-title">Contact</h2>
-                </div> <!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-6 text-right">
+                <div class="col-md-12 col-sm-12">
+                    <h1 class="page-title">Contact</h1>
                 </div> <!-- /.col-md-6 -->
             </div> <!-- /.row -->
         </div> <!-- /.container -->
@@ -126,22 +118,23 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-wrapper">
-                        <h3>Get In Touch With Me</h3>
-                        <p>If you want to get in touch with me please contact me using the form bellow, or send me an
+                        <h2>Get In Touch With Me</h2>
+                        <p class="news-description">If you want to get in touch with me please contact me using the form
+                            bellow, or send me an
                             email at vlad.prundus@cs.ubbcluj.ro. Please state your name and group when sending the
                             email.</p>
                         <ul class="meta-post">
-                            <li><span>Address:</span>1, M. Kogalniceanu Street, RO-400084, Cluj-Napoca, Romania</li>
-                            <li><span>Tel:</span>+40.264.418.655</li>
-                            <li><span>Fax:</span>+40.264.591.906</li>
-                            <li><span>E-mail:</span>vlad.prundus@cs.ubbcluj.ro</li>
-                            <li><span>Homepage:</span><a href="https://my-teacher-website.vercel.app/" target="_blank">https://my-teacher-website.vercel.app/</a>
+                            <li class="contact-li"><span class="contact-span">Address: </span>1, M. Kogalniceanu Street,
+                                RO-400084, Cluj-Napoca, Romania
+                            </li>
+                            <li class="contact-li"><span class="contact-span">Tel: </span>+40.264.418.655</li>
+                            <li class="contact-li"><span class="contact-span">Fax: </span>+40.264.591.906</li>
+                            <li class="contact-li"><span class="contact-span">E-mail: </span>vlad.prundus@cs.ubbcluj.ro
+                            </li>
+                            <li class="contact-li"><span class="contact-span">Homepage: </span><a
+                                    href="https://my-teacher-website.vercel.app/" target="_blank">https://my-teacher-website.vercel.app/</a>
                             </li>
                         </ul>
-                        <div class="contact-map">
-                            <div class="google-map-canvas" id="map-canvas" style="height: 320px;">
-                            </div>
-                        </div>
                     </div> <!-- /.contact-wrapper -->
                 </div> <!-- /.col-md-12 -->
             </div> <!-- /.row -->
@@ -212,36 +205,6 @@
 <!-- Scripts -->
 <script src="js/min/plugins.min.js"></script>
 <script src="js/min/medigo-custom.min.js"></script>
-<script>
-    function initialize() {
-        const myLatLng = {lat: 46.767108, lng: 23.592155};
-
-        var mapOptions = {
-            zoom: 14,
-            center: myLatLng
-        };
-
-        var map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);
-
-        new google.maps.Marker({
-            position: myLatLng,
-            map,
-            title: "Center Building",
-        });
-    }
-
-    function loadScript() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-            'callback=initialize';
-        document.body.appendChild(script);
-    }
-
-    window.onload = loadScript;
-</script>
-
 
 </body>
 </html>
