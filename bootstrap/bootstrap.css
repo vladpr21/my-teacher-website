@@ -118,7 +118,7 @@ img { vertical-align: middle; }
 
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eeeeee; }
 
-.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; }
 
 p { margin: 0 0 10px; }
 
@@ -757,7 +757,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .fa-rotate-270 { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  transform: rotate(270deg); }
 
-.fa-flip-horizontal { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); );transform: scale(-1, 1); }
+.fa-flip-horizontal { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);transform: scale(-1, 1); }
 
 .fa-flip-vertical { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1); transform: scale(1, -1); }
 
